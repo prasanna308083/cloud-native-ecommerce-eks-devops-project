@@ -1,23 +1,54 @@
-# online-shopping-app-microservices
-Production-grade Microservices Deployment on AWS EKS using Kubernetes, Docker, Jenkins CI/CD, EC2, IAM, and LoadBalancer Services.
-Designed and implemented a cloud-native microservices application deployment platform on AWS using Amazon EKS, Kubernetes, Docker, and Jenkins CI/CD. The project demonstrates end-to-end DevOps practices, including infrastructure provisioning, container orchestration, automated deployment pipelines, and cloud-native application management.
-Configured AWS IAM users and policies for secure access management, provisioned EC2 instances for Jenkins automation, and created a highly available Amazon EKS cluster with multiple worker nodes. Deployed and managed containerized microservices such as Frontend, Cart Service, Checkout Service, Payment Service, Product Catalog Service, Recommendation Service, Shipping Service, Currency Service, Email Service, and Redis Cache using Kubernetes Deployments and Services.
-Implemented Jenkins CI/CD pipelines integrated with GitHub for automated application deployment and verification. Exposed applications through Kubernetes LoadBalancer services and validated cluster health using kubectl and EKS monitoring tools.
-Key Features
-Amazon EKS Cluster Deployment
-Kubernetes-Based Microservices Architecture
+#cloud-native-ecommerce-eks-devops-project
+This project demonstrates the deployment of a cloud-native microservices-based e-commerce application on Amazon Elastic Kubernetes Service (EKS). The application consists of multiple containerized services managed through Kubernetes and deployed using a Jenkins CI/CD pipeline.
+
+The platform follows modern DevOps practices including container orchestration, automated deployment, cloud infrastructure management, and service-to-service communication within a Kubernetes cluster.
+
+Technologies Used
+AWS IAM
+AWS EC2
+Amazon EKS
+Kubernetes
+Docker
+Jenkins
+GitHub
+Linux
+Shell Scripting
+kubectl
+eksctl
+Microservices
+Frontend Service
+Product Catalog Service
+Cart Service
+Checkout Service
+Payment Service
+Shipping Service
+Recommendation Service
+Currency Service
+Email Service
+Advertisement Service
+Redis Cache
+Features
+Microservices Architecture
+Kubernetes Deployments and Services
+AWS LoadBalancer Integration
 Jenkins CI/CD Automation
 Docker Containerization
+Service Discovery
+High Availability Deployment
+Horizontal Scalability
+Automated Health Checks
+Cloud Native Infrastructure
+Infrastructure
+Amazon EKS Cluster
+3 Worker Nodes
+Jenkins Server on EC2
 AWS IAM Access Management
-EC2-Based Jenkins Server
-Kubernetes Load Balancer Integration
-Automated Application Deployment
-High Availability with Multiple Worker Nodes
-Cloud-Native Infrastructure Management
-Technologies Used
+Kubernetes Namespace Isolation
+External Load Balancer
+Deployment Workflow
 
-AWS, Amazon EKS, EC2, IAM, Kubernetes, Docker, Jenkins, GitHub, Linux, Shell Scripting, kubectl, eksctl
+GitHub → Jenkins → Kubernetes → Amazon EKS → AWS Load Balancer
 
-Outcome
+Project Outcome
 
-Successfully deployed and managed a scalable cloud-native microservices application on AWS EKS with automated CI/CD workflows, demonstrating practical skills in DevOps engineering, Kubernetes administration, and cloud infrastructure management.
+Successfully deployed a production-style microservices application on AWS EKS with automated CI/CD, Kubernetes orchestration, service discovery, and cloud-native scalability.
